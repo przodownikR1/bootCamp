@@ -3,7 +3,7 @@
 		value="%highlight(%.-5level)|%green(%date{yyyy-MM-dd HH:mm:ss.SSS})|%boldMagenta([%thread])|%yellow(%logger{70}:%boldYellow(%line)) - %msg%n%red(%rEx)" />
 
 	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
-		<file>thymeleaf.log</file>
+		<file>bootCamp.log</file>
 		<encoder>
 			<pattern>[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %logger{36} - [requestID: %X{requestID}] %msg%n</pattern>
 		</encoder>
@@ -20,7 +20,7 @@
      <appender name="FILE-QUEUE" class="ch.qos.logback.classic.sift.SiftingAppender">
 		<discriminator>
 			<key>logFileName</key>
-			<defaultValue>thymeleaf</defaultValue>
+			<defaultValue>bootCamp</defaultValue>
 		</discriminator>
 		<sift>
 		  <appender name="${logFileName}" class="ch.qos.logback.core.rolling.RollingFileAppender">
