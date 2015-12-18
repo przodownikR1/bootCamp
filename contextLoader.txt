@@ -98,7 +98,6 @@ optionalLiveReloadServer
 org.springframework.aop.config.internalAutoProxyCreator
 org.springframework.boot.autoconfigure.AutoConfigurationPackages
 org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
-org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration
 org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
 org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration
 org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
@@ -126,6 +125,7 @@ org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
 org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration
 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+org.springframework.boot.autoconfigure.session.SessionAutoConfiguration
 org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration
 org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
 org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration
@@ -185,6 +185,7 @@ preserveErrorControllerTargetClassPostProcessor
 profileController
 profileResourceProcessor
 propertySourcesPlaceholderConfigurer
+redisConfig
 relProviderPluginRegistry
 remoteIpFilter
 repoRequestArgumentResolver
@@ -225,7 +226,6 @@ spring.jpa.CONFIGURATION_PROPERTIES
 spring.jta.CONFIGURATION_PROPERTIES
 spring.mvc.CONFIGURATION_PROPERTIES
 spring.thymeleaf.CONFIGURATION_PROPERTIES
-springApplicationAdminRegistrar
 springBootRepositoryRestConfigurer
 stringHttpMessageConverter
 templateEngine

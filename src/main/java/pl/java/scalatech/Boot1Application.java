@@ -2,7 +2,6 @@ package pl.java.scalatech;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.Arrays;
 
 import javax.sql.DataSource;
@@ -22,7 +21,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
-import com.google.common.io.CharSink;
 import com.google.common.io.Files;
 
 import lombok.SneakyThrows;
@@ -48,6 +46,9 @@ public class Boot1Application implements CommandLineRunner {
 
     @Autowired
     private RoleRepository roleRepository;
+    
+   /* @Autowired
+    private StringRedisTemplate template;*/
 
     @Bean
     public ServletRegistrationBean h2servletRegistration() {
@@ -90,8 +91,19 @@ public class Boot1Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
         log.info("+++ ds:  {} , jdbcTempate {}", ds, jdbcTemplate);
         populateDb();
+      
+      //  redisTest(ops);
 
     }
+
+  /*  private void redisTest(ValueOperations<String, String> ops) {
+   *   ValueOperations<String, String> ops = this.template.opsForValue();
+        String key = "spring.boot.redis.test";
+        if (!this.template.hasKey(key)) {
+            ops.set(key, "foo");
+        }
+       log.info("Found key {} value {}", key ,ops.get(key));
+    }*/
 
     private void populateDb() {
         Role user = Role.builder().name("USER").build();

@@ -7,14 +7,47 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
+        classpath 'io.spring.gradle:dependency-management-plugin:0.5.3.RELEASE'
     }
 }
 
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'spring-boot' 
 
+ext {
+    springDataVersion = 'Fowler-RELEASE'
+    springVersion = '4.2.3.RELEASE'
+    hibernateVersion = "5.0.2.Final"
+    javaxValidationVersion = "1.1.0.Final"
+    hibernateValidatorVersion = "5.0.3.Final"
+    lombokVersion = "1.16.6"
+    apacheHttpVersion = "4.5"
+}
+sourceSets {
+    intTest
+    main {
+        java { srcDir 'src/main/java' }
+        groovy { srcDir 'src/main/groovy' }
+        resources { srcDir 'src/main/resources' }
+    }
+    test {
+        java { srcDir 'src/test/java' }
+        groovy { srcDir 'src/test/groovy' }
+        resources { srcDir 'src/test/resources' }
+    }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework:spring-framework-bom:4.2.3.RELEASE'
+       // mavenBom "org.springframework.data:spring-data-releasetrain:${springDataVersion}"
+    }
+}
+
 jar {
-    baseName = 'demo1'
+    baseName = 'bootCamp'
     version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
@@ -29,16 +62,19 @@ configurations {
 }
 
 dependencies {
+    
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
+  //  compile 'org.springframework.data:spring-data-redis'
+    compile 'org.springframework.session:spring-session:1.0.2.RELEASE'
+    compile 'redis.clients:jedis:2.1.0'
+   //compile 'org.springframework.data:spring-data-commons:1.9.1.RELEASE'
     compile('org.springframework.boot:spring-boot-devtools')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-jdbc')
     compile 'org.springframework.boot:spring-boot-starter-data-rest'
     compile('org.springframework.boot:spring-boot-starter-logging')
-    compile('org.springframework.boot:spring-boot-starter-data-rest')
     compile('org.springframework.data:spring-data-rest-hal-browser')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-    
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
     
