@@ -2,10 +2,13 @@ package pl.java.scalatech.config;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
+import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.coyote.http11.Http11NioProtocol;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
+import org.springframework.boot.context.embedded.tomcat.TomcatContextCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -27,9 +30,23 @@ public class SSLConfig {
     public EmbeddedServletContainerFactory servletContainer(TomcatSslConnectorProperties properties) {
         TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory();
         tomcat.addAdditionalTomcatConnectors(createSslConnector(properties));
+        tomcat.setTomcatContextCustomizers(Arrays.asList(new CustomCustomizer(properties)));
         return tomcat;
     }
 
+    static class CustomCustomizer implements TomcatContextCustomizer {
+        TomcatSslConnectorProperties properties;
+        public CustomCustomizer(TomcatSslConnectorProperties properties) {
+         this.properties = properties;
+        }
+        @Override
+        public void customize(Context context) {
+            context.setUseHttpOnly(properties.httpOnly);
+            context.setSessionTimeout(properties.getTimeout());
+        }
+
+    }
+    
     private Connector createSslConnector(TomcatSslConnectorProperties properties) {
         Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
         Http11NioProtocol protocol = (Http11NioProtocol) connector.getProtocolHandler();
@@ -66,6 +83,7 @@ public class SSLConfig {
         private int timeout;
         private String scheme;
         private boolean allowTrace;
+        private boolean httpOnly;
     }
 
 }

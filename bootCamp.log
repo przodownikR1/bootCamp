@@ -1,0 +1,292 @@
+2015-12-18 13:46:36   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 22680 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:46:36   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:46:44   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@6cc95332{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@536a3933 
+2015-12-18 13:46:44   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 13:46:44   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 8.221 seconds (JVM running for 8.91) 
+2015-12-18 13:51:40   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 22680 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:51:40   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:51:44   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:51:44   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@79d0e639{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@16f682a9 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 8.344 seconds (JVM running for 9.062) 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - SSLConfig 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - _halObjectMapper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - _linkDiscovererRegistry 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - _relProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - alpsController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - alpsConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - alpsJsonHttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - annotatedEventHandlerInvoker 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - annotationRelProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - auditableBeanWrapperFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - backendIdConverterRegistry 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - backendIdHandlerMethodArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - baseUri 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - basicErrorController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - beanNameHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - beanNameViewResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - boot1Application 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - characterEncodingFilter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - classPathFileSystemWatcher 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - classPathRestartStrategy 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - config 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - controllerEntityLinks 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - cookieController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dataSource 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dataSourceInitializedPublisher 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dataSourceInitializer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dataSourceInitializerPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dataSourceMBean 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - defaultConversionService 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - defaultMessageConverters 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - defaultRelProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - defaultServletHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - defaultTemplateResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - delegatingEntityLinks 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dispatcherServlet 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - dispatcherServletRegistration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - domainClassConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - domainObjectMerger 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - duplicateServerPropertiesDetector 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - eTagArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - embeddedServletContainerCustomizerBeanPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - entityLinks 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - entityLinksPluginRegistry 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - entityManagerFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - entityManagerFactoryBuilder 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - enumTranslator 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - error 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - errorAttributes 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - errorPageCustomizer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - exceptionHandlerExceptionResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - fileSystemWatcherFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - filterRegistrationBeanEncoding 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - filterRegistrationBeanHidden 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - foo 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - h2Console 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - h2servletRegistration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - halBrowser 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - halJacksonHttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - halMessageConverterSupportedMediaTypeCustomizer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - halObjectMapper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - handlerExceptionResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - hateoasObjenesisCacheDisabler 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - httpRequestHandlerAdapter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jacksonGeoModule 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jacksonHttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jacksonObjectMapper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jacksonObjectMapperBuilder 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jdbcTemplate 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jpaContext 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jpaHelper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jpaMappingContext 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jpaVendorAdapter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - jsonSchemaConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - layoutDialect 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - linkRelationMessageSource 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - liveReloadServer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mappingJackson2HttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mbeanExporter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mbeanServer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - messageConverters 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - metadataConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - multipart.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - multipartConfigElement 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - multipartResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcContentNegotiationManager 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcConversionService 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcPathMatcher 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcResourceUrlProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcUriComponentsContributor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcUrlPathHelper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcValidator 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - mvcViewResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - namedParameterJdbcTemplate 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - objectMapper 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - objectNamingStrategy 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - openEntityManagerInViewInterceptor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - optionalLiveReloadServer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.aop.config.internalAutoProxyCreator 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.AutoConfigurationPackages 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.aop.AopAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$JdkDynamicAutoProxyConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.condition.BeanTypeRegistry 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.data.rest.SpringBootRepositoryRestMvcConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.hateoas.HypermediaHttpMessageConverterConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$DataSourceInitializerConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$JdbcTemplateConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$NonEmbeddedConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$TomcatDataSourceJmxConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$TransactionManagementConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$TomcatDataSourcePoolMetadataProviderConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafResourceHandlingConfig 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafViewResolverConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebLayoutConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalAutowiredAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalCommonAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalConfigurationAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalPersistenceAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalRequiredAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.annotation.internalScheduledAnnotationProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.event.internalEventListenerFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.context.event.internalEventListenerProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.data.web.config.SpringDataJacksonConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.hateoas.LinkDiscoverers#0 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.hateoas.config.HateoasConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.hateoas.config.HypermediaSupportBeanDefinitionRegistrar$DefaultObjectMapperCustomizer#0 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.hateoas.config.HypermediaSupportBeanDefinitionRegistrar$Jackson2ModuleRegisteringBeanPostProcessor#0 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.orm.jpa.SharedEntityManagerCreator#0 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.scheduling.annotation.SchedulingConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.transaction.config.internalTransactionAdvisor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - org.springframework.transaction.config.internalTransactionalEventListenerFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - pageableResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - pagedResourcesAssembler 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - pagedResourcesAssemblerArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - persistenceExceptionTranslationPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - persistentEntities 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - persistentEntityArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - pingPongController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - preserveErrorControllerTargetClassPostProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - profileController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - profileResourceProcessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - propertySourcesPlaceholderConfigurer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - relProviderPluginRegistry 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - remoteIpFilter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repoRequestArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositories 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryEntityController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryExporterHandlerAdapter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryInvokerFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryPropertyReferenceController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryRelProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositoryRestExceptionHandler 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositorySchemaController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - repositorySearchController 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - requestMappingHandlerAdapter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - requestMappingHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - resourceDescriptionMessageSourceAccessor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - resourceHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - resourceMappings 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - resourceMetadataHandlerMethodArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - restClientHttpFactory 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - restHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - restTemplate 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - roleRepository 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - schedulerRunner 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - serverHttpRequestMethodArgumentResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - serverProperties 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - servletContainer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - simpleControllerHandlerAdapter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - sortResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.data.rest.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.datasource.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.devtools.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.h2.console.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.hateoas.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.http.encoding.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.jackson.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.jpa.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.jta.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.mvc.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - spring.thymeleaf.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - springApplicationAdminRegistrar 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - springBootRepositoryRestConfigurer 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - stringHttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - templateEngine 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - thymeleafResourceResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - thymeleafViewResolver 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - tomcat.https.CONFIGURATION_PROPERTIES 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - tomcatPoolDataSourceMetadataProvider 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - transactionAttributeSource 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - transactionInterceptor 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - transactionManager 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - transactionTemplate 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - uriListHttpMessageConverter 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - userRepository 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - validatingRepositoryEventListener 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - viewControllerHandlerMapping 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - webConfig 
+2015-12-18 13:51:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - websocketContainerCustomizer 
+2015-12-18 13:56:40   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:56:40   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:56:42   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@6b86a0ae{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@4f31dd08 
+2015-12-18 13:56:42   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 13:56:42   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 2.034 seconds (JVM running for 298.462) 
+2015-12-18 13:59:08   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:59:08   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:59:10   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@2ce6337e{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@87e371 
+2015-12-18 13:59:10   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 13:59:10   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.783 seconds (JVM running for 446.989) 
+2015-12-18 13:59:38   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 13:59:38   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 13:59:39   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@6604fcd{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@16e71540 
+2015-12-18 13:59:40   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 13:59:40   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.677 seconds (JVM running for 476.329) 
+2015-12-18 14:00:16   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 14:00:16   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 14:00:18   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@61958dd0{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@3333279f 
+2015-12-18 14:00:18   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 14:00:18   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.651 seconds (JVM running for 514.597) 
+2015-12-18 14:02:25   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 14:02:25   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 14:02:26   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@5bb529e7{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@40d3787c 
+2015-12-18 14:02:26   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 14:02:26   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.22 seconds (JVM running for 642.565) 
+2015-12-18 14:02:51   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 14:02:52   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 14:02:53   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@123c204b{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@13d09e9b 
+2015-12-18 14:02:53   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 14:02:53   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.296 seconds (JVM running for 669.544) 
+2015-12-18 14:03:18   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Starting Boot1Application on przodownik-Dell-System-XPS-L702X with PID 23020 (/home/przodownik/blog/bootCamp/bin started by przodownik in /home/przodownik/blog/bootCamp) 
+2015-12-18 14:03:18   [restartedMain] INFO  pl.java.scalatech.Boot1Application - No profiles are active 
+2015-12-18 14:03:20   [restartedMain] INFO  pl.java.scalatech.Boot1Application - +++ ds:  org.apache.tomcat.jdbc.pool.DataSource@25074388{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=30000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; } , jdbcTempate org.springframework.jdbc.core.JdbcTemplate@46bebced 
+2015-12-18 14:03:20   [restartedMain] INFO  pl.java.scalatech.StartupRunner - Hello 
+2015-12-18 14:03:20   [restartedMain] INFO  pl.java.scalatech.Boot1Application - Started Boot1Application in 1.39 seconds (JVM running for 696.559) 

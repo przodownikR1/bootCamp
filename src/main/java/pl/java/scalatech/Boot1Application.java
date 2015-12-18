@@ -1,5 +1,10 @@
 package pl.java.scalatech;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.util.Arrays;
+
 import javax.sql.DataSource;
 
 import org.apache.catalina.filters.RemoteIpFilter;
@@ -9,13 +14,18 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
+import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
+import com.google.common.io.CharSink;
+import com.google.common.io.Files;
 
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.entity.Role;
 import pl.java.scalatech.entity.User;
@@ -47,8 +57,23 @@ public class Boot1Application implements CommandLineRunner {
         return registration;
     }
 
+    @SneakyThrows
     public static void main(String[] args) {
-        SpringApplication.run(Boot1Application.class, args);
+        ApplicationContext ctx = SpringApplication.run(Boot1Application.class, args);
+
+        String[] beanNames = ctx.getBeanDefinitionNames();
+        Arrays.sort(beanNames);
+        File file = new File("contextLoader.txt");
+        Files.write("".getBytes(), file);
+        Lists.newArrayList(beanNames).stream().sorted().forEach(line -> {
+            try {
+                Files.append(line + "\n", file, Charsets.UTF_8);
+            } catch (IOException e) {
+              log.error("{}",e);
+            }
+
+        });
+
     }
 
     @Bean
@@ -81,6 +106,6 @@ public class Boot1Application implements CommandLineRunner {
 
     @Scheduled(initialDelay = 2000, fixedRate = 10000)
     public void run() {
-      //  log.info("Users {}", userRepository.count());
+        // log.info("Users {}", userRepository.count());
     }
 }
